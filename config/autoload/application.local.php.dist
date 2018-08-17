@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * ======================================================================================================
+ * GENERAL APPLICATION CONFIGURATION FILE
+ * ======================================================================================================
+ */
+
+$logDate = new DateTime();
+
+return [
+    'settings' => [
+        'displayErrorDetails' => true,
+
+        // Monolog settings
+        'logger' => [
+            'name' => 'application-logger',
+            'path' => PROJECT_ROOT . '/logs/' . $logDate->format('d-m-Y') . '.application.log',
+        ],
+    ],
+];

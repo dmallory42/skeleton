@@ -1,0 +1,32 @@
+<?php
+
+return array(
+    'data' => array(
+        'database'  => array(
+            'live'      => array(
+                'host'     => '',
+                'port'     => '',
+                'username' => '',
+                'password' => '',
+                'dbname'   => '',
+                'driver'   => 'pdo_mysql'
+            ),
+        ),
+        'elastic_hosts'    => array(
+            'http://elk01.maid.adspruce.com:9200',  // TEST
+//            'http://192.168.120.94:9200'        // TEST
+        ),
+        'aerospike' => array(
+            'hosts' => array(
+                // Can be a multiple array of hosts in the cluster:
+                ['addr' => '', 'port' => 3000],
+                ['addr' => '', 'port' => 3000],
+                ['addr' => '', 'port' => 3000]
+            ),
+        ),
+        'lookup'    => array(
+            'host' => '128.0.0.1',
+            'port' => 8888
+        )
+    )
+);
