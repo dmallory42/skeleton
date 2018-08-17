@@ -1,35 +1,22 @@
 {
   "name": "AdSpruce Slim 3 Skeleton App",
-  "description": "A Slim Framework skeleton application for rapid development of AdSpruce Products",
+  "description": "A Slim Framework skeleton application for rapid development",
   "authors": [
     {
-      "name": "Craig Patrick",
-      "email": "craig@adspruce.com",
-      "homepage": "http://www.adspruce.com/"
+      "name": "Daniel Mallory",
+      "email": "d.mallory42@gmail.com"
     }
   ],
   "minimum-stability":"stable",
   "require": {
-    "php": ">=5.6.0",
+    "php": ">=7.1.0",
     "slim/slim": "^3.3",
     "slim/php-view": "2.0.*",
     "monolog/monolog": "1.17.*",
-    "adspruce/adspruce-middleware": "^0.9",
-    "codecrafting/php-beanstalk": "@dev"
   },
   "autoload": {
     "psr-4": {
       "Application\\": "src/Application"
     }
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@bitbucket.org:adspruce/common.git"
-    },
-    {
-      "type": "git",
-      "url": "git@bitbucket.org:adspruce/adspruce-middleware.git"
-    }
-  ]
+  }
 }
