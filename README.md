@@ -6,6 +6,6 @@ This skeleton application was built for Composer. This makes setting up a new Sl
 
 ## Install the Application
 
-This can simply be checked out, or downloaded as a zip file - much MUCH easier to be downloaded as a zip file and used as a start
+This can simply be checked out using the command `git clone https://github.com/dmallory42/skeleton.git [my-project-name]` to clone it from GitHub into a new directory, then customised for usage to build your project.
 
 That's it! Now go build something cool.
